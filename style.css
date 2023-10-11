@@ -1,0 +1,654 @@
+.element {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.element .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 4406px;
+    position: relative;
+}
+
+.element .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 2708px;
+    top: 1569px;
+    left: 0;
+}
+
+.element .group {
+    position: absolute;
+    width: 934px;
+    height: 1162px;
+    top: 181px;
+    left: 253px;
+    transform: rotate(2deg);
+}
+
+.element .frame {
+    position: absolute;
+    width: 455px;
+    height: 455px;
+    top: 228px;
+    left: 0;
+    background-color: #dedede;
+    border-radius: 64px;
+    overflow: hidden;
+}
+
+.element .img {
+    position: absolute;
+    width: 471px;
+    height: 471px;
+    top: -8px;
+    left: -8px;
+    transform: rotate(-2deg);
+    object-fit: cover;
+}
+
+.element .element-wrapper {
+    position: absolute;
+    width: 455px;
+    height: 455px;
+    top: 706px;
+    left: 0;
+    background-color: #dedede;
+    border-radius: 64px;
+    overflow: hidden;
+}
+
+.element .img-wrapper {
+    position: absolute;
+    width: 455px;
+    height: 455px;
+    top: 0;
+    left: 479px;
+    background-color: #dedede;
+    border-radius: 64px;
+    overflow: hidden;
+}
+
+.element .frame-2 {
+    position: absolute;
+    width: 455px;
+    height: 455px;
+    top: 479px;
+    left: 479px;
+    background-color: #dedede;
+    border-radius: 64px;
+    overflow: hidden;
+}
+
+.element .text-wrapper {
+    position: absolute;
+    width: 827px;
+    top: 0;
+    left: 262px;
+    font-family: "YS Text-Black", Helvetica;
+    font-weight: 900;
+    color: #21201f;
+    font-size: 48px;
+    letter-spacing: -0.96px;
+    line-height: 48px;
+}
+
+.element .p {
+    position: absolute;
+    width: 442px;
+    top: 130px;
+    left: 262px;
+    font-family: "YS Text-Medium", Helvetica;
+    font-weight: 500;
+    color: #21201f;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28.8px;
+}
+
+.element .smkt {
+    position: absolute;
+    width: 596px;
+    height: 694px;
+    top: 803px;
+    left: 838px;
+    object-fit: cover;
+}
+
+.element .smkt-2 {
+    position: absolute;
+    width: 524px;
+    height: 592px;
+    top: 260px;
+    left: 0;
+    object-fit: cover;
+}
+
+.element .cfee {
+    position: absolute;
+    width: 364px;
+    height: 364px;
+    top: 34px;
+    left: 995px;
+}
+
+.element .frame-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    position: absolute;
+    top: 1447px;
+    left: 260px;
+}
+
+.element .text-wrapper-2 {
+    position: relative;
+    width: 407px;
+    margin-top: -1px;
+    font-family: "YS Text-Black", Helvetica;
+    font-weight: 900;
+    color: #21201f;
+    font-size: 48px;
+    letter-spacing: -0.96px;
+    line-height: 48px;
+}
+
+.element .text-wrapper-3 {
+    position: relative;
+    width: 419px;
+    font-family: "YS Text-Medium", Helvetica;
+    font-weight: 500;
+    color: #21201f;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28.8px;
+}
+
+.element .ellipse {
+    width: 753px;
+    top: 1218px;
+    left: 687px;
+    position: absolute;
+    height: 788px;
+}
+
+.element .ellipse-2 {
+    width: 788px;
+    top: 1875px;
+    left: 0;
+    position: absolute;
+    height: 788px;
+}
+
+.element .cfee-2 {
+    position: absolute;
+    width: 871px;
+    height: 892px;
+    top: 1206px;
+    left: 569px;
+    object-fit: cover;
+}
+
+.element .PLUS {
+    position: absolute;
+    width: 295px;
+    height: 292px;
+    top: 1495px;
+    left: 733px;
+}
+
+.element .frame-4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    position: absolute;
+    top: 2011px;
+    left: 736px;
+}
+
+.element .button {
+    position: relative;
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 24px 48px;
+    background-color: #ffde40;
+    border-radius: 36px;
+    box-shadow: 0px 4px 98px #ffde4096;
+    box-sizing: border-box;
+    border: none;
+}
+
+.element .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "YS Text-Medium", Helvetica;
+    font-weight: 500;
+    color: #21201f;
+    font-size: 24px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+}
+
+.element .overlap-wrapper {
+    position: absolute;
+    width: 450px;
+    height: 456px;
+    top: 1985px;
+    left: 184px;
+    transform: rotate(-12.68deg);
+}
+
+.element .overlap-group {
+    position: relative;
+    height: 456px;
+}
+
+.element .smkt-3 {
+    position: absolute;
+    width: 283px;
+    height: 393px;
+    top: 26px;
+    left: 84px;
+    transform: rotate(12.68deg);
+    object-fit: cover;
+}
+
+.element .overlap-group-wrapper {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    top: 6px;
+    left: 0;
+}
+
+.element .overlap-group-2 {
+    position: relative;
+    width: 580px;
+    height: 580px;
+    top: -65px;
+    left: -65px;
+}
+
+.element .rectangle {
+    position: absolute;
+    width: 485px;
+    height: 485px;
+    top: 47px;
+    left: 47px;
+    transform: rotate(12.68deg);
+}
+
+.element .rectangle-2 {
+    position: absolute;
+    width: 485px;
+    height: 485px;
+    top: 47px;
+    left: 47px;
+    transform: rotate(12.68deg);
+    mix-blend-mode: difference;
+}
+
+.element .element-go {
+    position: absolute;
+    width: 906px;
+    top: 2612px;
+    left: 260px;
+    font-family: "YS Text-Regular", Helvetica;
+    font-weight: 400;
+    color: #c4c4c4;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 15.6px;
+}
+
+.element .span {
+    font-family: "YS Text-Regular", Helvetica;
+    font-weight: 400;
+    color: #c4c4c4;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 15.6px;
+}
+
+.element .text-wrapper-5 {
+    text-decoration: underline;
+}
+
+.element .overlap-2 {
+    position: absolute;
+    width: 1788px;
+    height: 902px;
+    top: 0;
+    left: -348px;
+}
+
+.element .rectangle-3 {
+    position: absolute;
+    width: 1440px;
+    height: 804px;
+    top: 0;
+    left: 348px;
+    background-color: #ffffff33;
+    opacity: 0.22;
+    background: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.2),
+            rgba(255, 255, 255, 0.2)
+    ),
+    linear-gradient(90deg, #ff5c4d 0%, #eb469f 25%, #8341ef 72%, #3f68f9 100%);
+}
+
+.element .rectangle-4 {
+    position: absolute;
+    width: 1440px;
+    height: 804px;
+    top: 0;
+    left: 348px;
+}
+
+.element .ellipse-3 {
+    position: absolute;
+    width: 967px;
+    height: 806px;
+    top: 0;
+    left: 752px;
+}
+
+.element .smkt-4 {
+    position: absolute;
+    width: 823px;
+    height: 716px;
+    top: 44px;
+    left: 891px;
+}
+
+.element .yandex-go-ru-black {
+    position: absolute;
+    width: 176px;
+    height: 50px;
+    top: 125px;
+    left: 610px;
+}
+
+.element .text-wrapper-6 {
+    position: absolute;
+    top: 246px;
+    left: 610px;
+    font-family: "YS Text-Black", Helvetica;
+    font-weight: 900;
+    color: #21201f;
+    font-size: 72px;
+    letter-spacing: -1.44px;
+    line-height: 72px;
+}
+
+.element .text-wrapper-7 {
+    position: absolute;
+    width: 465px;
+    top: 490px;
+    left: 610px;
+    font-family: "YS Text-Medium", Helvetica;
+    font-weight: 500;
+    color: #21201f;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 31.2px;
+}
+
+.element .text-wrapper-8 {
+    position: absolute;
+    width: 465px;
+    top: 395px;
+    left: 0;
+    font-family: "YS Text-Medium", Helvetica;
+    font-weight: 500;
+    color: #808080;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 21.6px;
+    text-decoration: line-through;
+}
+
+.element .div-wrapper {
+    position: absolute;
+    top: 614px;
+    left: 610px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 24px 48px;
+    background-color: #ffde40;
+    border-radius: 36px;
+    box-shadow: 0px 4px 98px #ffde4096;
+    box-sizing: border-box;
+    border: none;
+}
+
+.element .rectangle-wrapper {
+    position: absolute;
+    width: 208px;
+    height: 208px;
+    top: 394px;
+    left: 1120px;
+    background-image: url(https://c.animaapp.com/wXBoZIOc/img/rectangle-3@2x.png);
+    background-size: 100% 100%;
+}
+
+.element .rectangle-5 {
+    position: absolute;
+    width: 208px;
+    height: 208px;
+    top: 0;
+    left: 0;
+    mix-blend-mode: difference;
+}
+
+.element .text-wrapper-9 {
+    position: absolute;
+    width: 827px;
+    top: 806px;
+    left: 610px;
+    font-family: "YS Text-Black", Helvetica;
+    font-weight: 900;
+    color: #21201f;
+    font-size: 56px;
+    letter-spacing: -1.12px;
+    line-height: 56px;
+}
+
+.element .frame-5 {
+    position: absolute;
+    width: 115px;
+    height: 37.8px;
+    top: 552px;
+    left: 792px;
+    background-color: #ffffffa1;
+    border-radius: 500px;
+    background: linear-gradient(
+            to left,
+            rgba(255, 255, 255, 0.63),
+            rgba(255, 255, 255, 0.63)
+    ),
+    radial-gradient(
+            closest-side,
+            rgba(224, 184, 255, 1) 0%,
+            rgba(182, 185, 255, 1) 100%
+    );
+}
+
+.element .overlap-3 {
+    position: relative;
+    width: 46px;
+    height: 11px;
+    top: 10px;
+    left: 57px;
+}
+
+.element .text-wrapper-10 {
+    position: absolute;
+    font-family: "YS Text-Medium", Helvetica;
+    font-weight: 500;
+    color: #808080;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    white-space: nowrap;
+    text-align: left;
+    left: -4px;
+    top: -1px;
+}
+
+.element .vector {
+    width: 46px;
+    height: 1px;
+    top: 8px;
+    object-fit: cover;
+    position: absolute;
+    left: -4px;
+}
+
+.element .frame-6 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 12px;
+    position: absolute;
+    top: 552px;
+    left: 758px;
+    border-radius: 500px;
+    background: radial-gradient(
+            50% 50% at 50% 50%,
+            rgb(224.49, 183.81, 255) 0%,
+            rgb(181.69, 184.98, 255) 100%
+    );
+}
+
+.element .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "YS Text-Medium", Helvetica;
+    font-weight: 500;
+    color: #2e2c21;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28.8px;
+    white-space: nowrap;
+}
+
+.element .frame-7 {
+    display: flex;
+    flex-direction: column;
+    width: 362px;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 951px;
+    left: 262px;
+}
+
+.element .group-wrapper {
+    position: relative;
+    width: 83px;
+    height: 83px;
+    border-radius: 24px;
+}
+
+.element .group-2 {
+    position: relative;
+    width: 73px;
+    height: 57px;
+    top: 13px;
+    left: 3px;
+}
+
+.element .overlap-group-3 {
+    position: relative;
+    width: 72px;
+    height: 57px;
+}
+
+.element .vector-2 {
+    width: 58px;
+    height: 57px;
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+
+.element .img-2 {
+    position: absolute;
+    width: 55px;
+    height: 38px;
+    top: 11px;
+    left: 17px;
+}
+
+.element .text-wrapper-12 {
+    position: relative;
+    align-self: stretch;
+    font-family: "YS Text-Medium", Helvetica;
+    font-weight: 500;
+    color: #21201f;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 28.8px;
+}
+
+.element .frame-8 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 951px;
+    left: 736px;
+}
+
+.element .scooter {
+    position: relative;
+    width: 93.98px;
+    height: 83px;
+}
+
+.element .frame-9 {
+    display: flex;
+    flex-direction: column;
+    width: 362px;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 1227px;
+    left: 262px;
+}
+
+.element .frame-10 {
+    position: relative;
+    width: 83px;
+    height: 83px;
+}
+
+.element .frame-11 {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 1227px;
+    left: 736px;
+}
